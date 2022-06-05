@@ -10,6 +10,8 @@ imageAlt: Image of the usePersistedStorage React hook
 ---
 This is a test post. In this test post, I want to test stuff like... code highlighting!
 
+`This is an inline code`
+
 ```javascript
 import { useState, useEffect } from "react";
 
