@@ -10,7 +10,7 @@ imageAlt: Image of the usePersistedStorage React hook
 ---
 This is a test post. In this test post, I want to test stuff like... code highlighting!
 
-```
+```javascript
 import { useState, useEffect } from "react";
 
 // Change .env variable for each project or use blank prefix
@@ -39,5 +39,4 @@ function usePersistedStorage(key, initialValue, storage = defaultStorage) {
 }
 
 export { usePersistedStorage };
-
 ```
