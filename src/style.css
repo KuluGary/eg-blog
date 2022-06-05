@@ -377,6 +377,16 @@ section,
   opacity: 0.75;
 }
 
+@media (max-width: 45em) {
+  .repo-list {
+    display: block;
+  }
+
+  .repo {
+    margin-block: 2em;
+  }
+}
+
 .btn {
   cursor: pointer;
   text-decoration: none;
