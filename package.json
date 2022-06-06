@@ -24,6 +24,7 @@
     "dotenv": "^16.0.1"
   },
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "eleventy-plugin-seo": "^0.5.2"
   }
 }

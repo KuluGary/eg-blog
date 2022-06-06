@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const pluginSEO = require("eleventy-plugin-seo");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
@@ -10,6 +11,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksGlobal("getYear", () => new Date().getFullYear());
 
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(pluginSEO, {
+    title: "Gary's blog",
+    description: "Gary Cuétara's Tech Blog.",
+    url: "https://kulugary.netlify.app/",
+    author: "Gary Cuétara",
+    twitter: "kulugary",
+    image: "./assets/hat.jpg",
+  });
 
   return {
     dir: {
