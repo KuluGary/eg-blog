@@ -22,7 +22,7 @@ module.exports = async function () {
   }
 
   const data = await axios
-    .get(BASE_API + "users/KulGary/repos")
+    .get(BASE_API + "users/KuluGary/repos")
     .then((res) => {
       const { data } = res;
 
@@ -30,12 +30,17 @@ module.exports = async function () {
         .sort((a, b) => b.stargazers_count - a.stargazers_count)
         .slice(0, 3)
         .map(async (repo) => {
-          const languages = dataJson[repo.full_name];
+          const url = BASE_API + "repos/" + repo.full_name + "/languages";
+          const languages = await axios.get(url);
 
-          return { ...repo, language: Object.keys(languages)[0] };
+          if (Object.keys(languages).length > 0) return { ...repo, language: Object.keys(languages)[0] };
+
+          return { ...repo, language: "" };
         });
     })
-    .catch(getDefaultData);
+    .catch((err) => {
+      getDefaultData();
+    });
 
   return data;
 };
