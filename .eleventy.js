@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSEO, {
     title: "Gary's blog",
     description: "Gary Cuétara's Tech Blog.",
-    url: "https://kulugary.netlify.app/",
+    url: "https://kulugary.netlify.app",
     author: "Gary Cuétara",
     twitter: "kulugary",
     image: "./assets/hat.jpg",
