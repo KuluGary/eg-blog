@@ -46,3 +46,9 @@ h3 {
 strong {
   font-weight: var(--fw-700);
 }
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
