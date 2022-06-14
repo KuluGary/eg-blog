@@ -5,6 +5,7 @@ author: Gary Cuétara
 date: 2022-06-14T10:40:02.755Z
 tags:
   - post
+  - featured
 image: /assets/blog/2022-06-14-09_01_36-window.png
 imageAlt: An image of a medieval fantasy map
 ---
