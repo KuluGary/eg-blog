@@ -9,7 +9,7 @@ tags:
 image: /assets/blog/2022-06-14-09_01_36-window.png
 imageAlt: An image of a medieval fantasy map
 ---
-If you've ever read fantasy novels or played a medieval fantasy TTRPG, you've surely come across these fantasy maps reminiscent of [medieval europe's maps](https://i.pinimg.com/originals/f2/68/ec/f268ec457d062eba8a3d116a3004930e.jpg). A famous example is [Tolkien's Middle Earth map](https://preview.redd.it/0um3t9v8w3s21.jpg?auto=webp&s=c3716718b2b97d3d054275855e098de36f2750f6), which even found more popularity through its appearance in Peter Jackson's adaptation of the trilogy.
+If you've ever read fantasy novels or played a medieval fantasy TTRPG, you've surely come across these fantasy maps reminiscent of [medieval europe's maps](https://i.pinimg.com/originals/f2/68/ec/f268ec457d062eba8a3d116a3004930e.jpg). A famous example is [Tolkien's Middle Earth map](https://preview.redd.it/0um3t9v8w3s21.jpg?auto=webp&s=c3716718b2b97d3d054275855e098de36f2750f6), which found even more popularity through its appearance in Peter Jackson's adaptation of the trilogy.
 
 With the advent of the internet, this worldbuilding tool has adapted and changed to an interactive version not unlike Google Maps, which one can utilize to immerse oneself into the world of the franchise it represents. From [series](https://www.witchernetflix.com/) to [videogames](https://eldenring.wiki.fextralife.com/Interactive%2BMap), these maps can be useful to learn either lore or used as a guide to progress through the storyline.
 
